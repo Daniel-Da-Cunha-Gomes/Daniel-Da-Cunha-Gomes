@@ -11,12 +11,9 @@
 
 - If you want to contact me, use this mail.
   <br>
--<a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTJpFJgXknsKFCCqMltglRKscxTdlkFcJDZJFdDwnJsqLxKlrhqZRKTqNHcJDqFfsdzxBV"><img src="https://img.shields.io/github/stars/Daniel-Da-Cunha-Gomes?label=gmail&logo=gmail&style=social"
-            alt=""></a><label>: dacunhagomesdaniel@gmail.com</label>
+-<a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTJpFJgXknsKFCCqMltglRKscxTdlkFcJDZJFdDwnJsqLxKlrhqZRKTqNHcJDqFfsdzxBV"><img src="https://img.shields.io/github/stars/Daniel-Da-Cunha-Gomes?label=gmail&logo=gmail&style=social" alt=""></a><label>: dacunhagomesdaniel@gmail.com</label>
             <br>
--<a href="https://discord.com/"><img src="https://img.shields.io/github/stars/Daniel-Da-Cunha-Gomes?label=discord&logo=discord&style=social"
-            alt=""></a><label>: Dani La Débrouille#7038</label>
+-<a href="https://discord.com/"><img src="https://img.shields.io/github/stars/Daniel-Da-Cunha-Gomes?label=discord&logo=discord&style=social" alt=""></a><label>: Dani La Débrouille#7038</label>
             <br>
--<a href="https://www.instagram.com/d4niel.dcg/"><img src="https://img.shields.io/github/stars/Daniel-Da-Cunha-Gomes?label=instagram&logo=instagram&style=social"
-            alt=""></a><label>: @d4niel.dcg</label>
+-<a href="https://www.instagram.com/d4niel.dcg/"><img src="https://img.shields.io/github/stars/Daniel-Da-Cunha-Gomes?label=instagram&logo=instagram&style=social" alt=""></a><label>: @d4niel.dcg</label>
             

@@ -22,10 +22,18 @@ nav .nom{
     color: white;
 }
 nav .onglets{
-    
+    flex-direction: row;
     padding-left: 5rem;
+    display: flex;
     
 }
+nav .onglets img{
+    border-radius: 190px;
+    width: 7rem;
+    align-items: flex-end;
+    padding-right: 5rem;
+}
+
 .onglets a{
     text-decoration: none;
     font-size: large;
