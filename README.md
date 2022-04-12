@@ -1,8 +1,3 @@
-<style>
-  .nav.like.baisser{
-    width: 15rem;
-  }
-</style>
 - Daniel-Da-Cunha-Gomes/Daniel-Da-Cunha-Gomes is a repository that will allow you to have a quick presentation of my person.
 
 <body>
@@ -14,9 +9,7 @@
         <div class="like">
           <h1>- 👀 I like front-end (html,css), music, cinéma et sports.</h1>
           <img src= "https://cdn.discordapp.com/attachments/822548413529849856/963542769916334180/unknown.png">
-          <div class="baisser">
-            <img src= "https://cdn.discordapp.com/attachments/822548413529849856/963543481878450276/unknown.png">
-          </div>    
+          <img src= "https://cdn.discordapp.com/attachments/822548413529849856/963546540390109235/unknown.png">
         </div>
         <div class="cour">
           <h1>- 🌱 I am currently learning Go, javascript, html/css, network infrastructure, linux basics and windows basics thanks to many projects launched in my university. </h1>
