@@ -1,6 +1,6 @@
 <style>
   .nav.like.baisser{
-    width; 25rem:
+    width: 15rem;
   }
 </style>
 - Daniel-Da-Cunha-Gomes/Daniel-Da-Cunha-Gomes is a repository that will allow you to have a quick presentation of my person.
