@@ -3,11 +3,19 @@
 
 <body>
     <nav>
-        <h1>- 👋 Hi, I’m @Daniel-Da-Cunha-Gomes. I am a French student, in the school PARIS YNOV CAMPUS in the first year, of a computer science bachelor.</h1>
-        <img src="https://cdn.discordapp.com/attachments/822548413529849856/963537901914824764/unknown.png">
-        <h1>- 👀 I like front-end (html,css), music, cinéma et sports.</h1>
-        <h1>- 🌱 I am currently learning Go, javascript, html/css, network infrastructure, linux basics and windows basics thanks to many projects launched in my university. </h1>
-        <h1>- 💞️ I did 2 stages in the DRPJ of Paris that I found fascinating.</h1>
+        <div class="presentation">
+          <h1>- 👋 Hi, I’m @Daniel-Da-Cunha-Gomes. I am a French student, in the school PARIS YNOV CAMPUS in the first year, of a computer science bachelor.</h1>
+          <img src="https://cdn.discordapp.com/attachments/822548413529849856/963537901914824764/unknown.png">
+        </div>
+        <div class="like">
+          <h1>- 👀 I like front-end (html,css), music, cinéma et sports.</h1>
+        </div>
+        <div class="cour">
+          <h1>- 🌱 I am currently learning Go, javascript, html/css, network infrastructure, linux basics and windows basics thanks to many projects launched in my university. </h1>
+        </div>
+        <div class="stages">
+          <h1>- 💞️ I did 2 stages in the DRPJ of Paris that I found fascinating.</h1>
+        </div>
     </nav>
 </body>
 
