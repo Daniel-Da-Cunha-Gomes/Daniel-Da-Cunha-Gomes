@@ -16,6 +16,10 @@
           <h1>- 🌱 I am currently learning Go, javascript, html/css, network infrastructure, linux basics and windows basics thanks to many projects launched in my university. </h1>
           <img scr="https://cdn.discordapp.com/attachments/822548413529849856/963548111106613318/unknown.png">
           <img src="https://cdn.discordapp.com/attachments/822548413529849856/963549898584752158/unknown.png">
+          <h1>voici quelque projet qui on étais fais avec 2 camarades</h1>
+          <img src="https://cdn.discordapp.com/attachments/822548413529849856/963551303336886362/unknown.png">
+          <img src="https://cdn.discordapp.com/attachments/822548413529849856/963551599962255360/unknown.png">
+          <img src="https://cdn.discordapp.com/attachments/822548413529849856/963551897392939048/unknown.png">
         </div>
         <div class="stages">
           <h1>- 💞️ I did 2 stages in the DRPJ of Paris that I found fascinating.</h1>
