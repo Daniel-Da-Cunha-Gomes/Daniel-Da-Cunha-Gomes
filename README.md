@@ -9,6 +9,7 @@
         </div>
         <div class="like">
           <h1>- 👀 I like front-end (html,css), music, cinéma et sports.</h1>
+          <img src= "https://cdn.discordapp.com/attachments/822548413529849856/963542769916334180/unknown.png">
         </div>
         <div class="cour">
           <h1>- 🌱 I am currently learning Go, javascript, html/css, network infrastructure, linux basics and windows basics thanks to many projects launched in my university. </h1>
