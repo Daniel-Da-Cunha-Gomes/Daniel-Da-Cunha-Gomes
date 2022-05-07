@@ -1,0 +1,102 @@
+html{
+    background-image: url('https://cdn.discordapp.com/attachments/822548413529849856/971780094811054160/unknown.png');
+    background-attachment:fixed;
+    scroll-behavior: smooth;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    
+    align-items: center;
+    border: 5px solid #6f6f6f;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 20px;
+    text-align: center;
+}
+.logo img{
+    
+    border-radius: 100%;
+    width: 70%;
+    margin-left: 1%;
+    border-right: 5px solid #6f6f6f;
+    border-left: 5px solid #6f6f6f;
+
+}
+nav .onglets{
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-bottom: 5%;
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-right: 20px;
+}
+.mid{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gauche{
+    width: 35%;
+}
+.Contact{
+    text-align: center;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: rgb(255, 255, 255, 0.4);
+    color: aliceblue;
+    border: 5px solid #6f6f6f;
+    width: 70%;
+    border-radius: 20px;
+    color: black;
+    margin-top: 10px;
+    
+}
+
+.Contact h1{
+    border-bottom: 5px solid gray;
+    margin: 1rem;
+}
+.Contact img{
+    width: 8%;
+    border-radius: 10px;
+}
+.img-contact img{
+    width: 54%;
+    border-radius: 10px;
+}
+.travaux{
+    
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.4);
+    color: aliceblue;
+    border: 5px solid #6f6f6f;
+    
+    border-radius: 20px;
+    color: black;
+    margin-top: 10px;
+}
+.travaux h1{
+    border-bottom: 5px solid gray;
+    margin: 1rem;
+}
+.groupie{
+    display: flex;
+    flex-wrap: wrap;
+}
+.groupie img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.droite{
+    width: 65%;
+    margin-bottom: 2rem;
+}
+.text-projet h2{
+    border-top: 2px dashed #000000;
+}
