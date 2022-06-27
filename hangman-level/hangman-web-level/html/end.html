@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #20bd9c;
+        }
+
+        h1 {
+            color: #5F5B5B;
+        }
+
+        h2 {
+            color: red;
+        }
+
+        h3 {
+            color: purple;
+        }
+
+        h4 {
+            color: yellow;
+        }
+
+        p {
+            font-size: 300%;
+            color: #5F5B5B;
+        }
+
+        .button {
+            color: black;
+            background-color: white;
+            padding: 10px 25px;
+            font-size: 18px
+        }
+
+        .button:hover {
+            color: white;
+            background-color: black;
+        }
+
+        .text {
+            padding: 5px;
+        }
+
+        div {
+            font-size: 200%;
+            text-align: center;
+            justify-content: space-around;
+            font-family: 'Arial Black';
+            text-transform: capitalize;
+        }
+    </style>
+    <title>Hangman-Web</title>
+</head>
+<body>
+    <div>
+        <h1>The word was</h1>
+        <h2>{{ .Word }}</h2>
+    </div>
+</body>
+</html>

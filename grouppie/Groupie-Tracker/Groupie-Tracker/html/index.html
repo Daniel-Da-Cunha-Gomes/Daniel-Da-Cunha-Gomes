@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Musiciens - Groupie Tracker</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style3.css">  
+</head>
+<body>
+    <nav>
+        <div class="onglets">
+            <a href="http://localhost:5550">Home</a>
+            <a href="http://localhost:5550/service-client">Besoin d'aide</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <header>
+        <h1>Nos Musiciens</h1>
+    </header>
+    <main>
+        <form method="POST" action="">
+            <div class="filters">
+                <div class="creationDates">
+                    <p>Date de creation :</p>
+                    <input type="number" name="DatesMin" autocomplete="off" autofocus maxlength="4">
+                    <input type="number" name="DatesMax" autocomplete="off" autofocus maxlength="4">
+                </div>
+                <div class="numberMembers">
+                    <p>Nombre de Membres :</p>
+                    <input type="checkbox" value="1" name="1" checked>
+                    <label for="scales">1</label>
+                    <input type="checkbox" value="2" name="2" checked>
+                    <label for="scales">2</label>
+                    <input type="checkbox" value="3" name="3" checked>
+                    <label for="scales">3</label>
+                    <input type="checkbox" value="4" name="4" checked>
+                    <label for="scales">4</label>
+                    <input type="checkbox" value="5" name="5" checked>
+                    <label for="scales">5</label>
+                    <input type="checkbox" value="6" name="6" checked>
+                    <label for="scales">+6</label>
+                </div>
+                <div class="Album">
+                    <p>Premier Album :</p>
+                    <select id="firstAlbum" name="FirstAlbum">
+                        <option>Toutes</option>
+                        {{range .INFO.FirstAlbumYear}}
+                        <option>{{.}}</option>
+                        {{end}}
+                    </select>
+                </div>
+            </div>
+            <div class="button">
+                <div class="button_filtres">
+                    <a href="http://localhost:5550/artists/filter"><input type="submit" value="Envoyer" class="button"></a>
+                </div>
+            </div>
+        </form>
+        <div class="button">
+            <div class="button_filtres">
+                <a href="http://localhost:5550/artist"><button>Reset</button></a>
+            </div>
+        </div>
+        <br>
+    </main>
+    <div class="image">
+        {{range .Artists}}
+            <a href="/artists/{{.Id}}">
+                <img src="{{.Image}}">
+                <p>{{.Name}}</p>
+            </a>
+        {{end}}
+    </div>
+    
+    <footer>
+        <p id="contact">Contact : 07 81 27 36 84 | &copy; 2022, Groupie Tracer</p>
+    </footer>
+</body>
+</html>

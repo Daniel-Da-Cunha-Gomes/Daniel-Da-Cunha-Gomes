@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Musiciens - Groupie Tracer</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style3.css">  
+</head>
+<body>
+    <nav>
+        <div class="onglets">
+            <a href="test-1.html">Home</a>
+            <a href="service-client.html">Besoin d'aide</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <header>
+        <div class="search">
+            <form method="POST" action="http://localhost:5550/">
+                <input list="navi" type="text" name="x" autocomplete="off"placeholder="search..." >
+                <datalist id="navi">
+                    {{range .Artists}}
+                    <option value="{{.Name}}"><p>{{.Name}} - name</p>
+                    {{end}}
+                    {{range .Artists}}
+                    {{range $k, $v := .Members}}<option value="{{.}}"><p>{{$v}} - Member </p>{{end}}
+                    {{end}}
+                    {{range .Artists}}
+                    <option value="{{.FirstAlbum}}"><p>{{.FirstAlbum}} - FirstAlbum {{.Name}}</p>
+                    {{end}}
+                    {{range .Artists}}
+                    <option value="{{.Name}}"><p>{{.CreationDate}} - CreationDate {{.Name}}</p>
+                    {{end}}
+                    {{range .Artists}}
+                    <option value="{{.Name}}"><p>{{.Name}} - Locations concert {{.Name}}</p>
+                    {{end}}
+                </datalist>
+                <button>Search</button>
+        <h1>Nos Musiciens</h1>
+        
+    </header>
+
+        <div class="image">
+            {{range .Artists}}
+                <a href="/artists/{{.Id}}">
+                    <img src="{{.Image}}">
+                    <p>{{.Name}}</p>
+                </a>
+            {{end}}
+        </div>
+    
+    <footer>
+        <p id="contact">Contact : 07 81 27 36 84 | &copy; 2022, Groupie Tracer</p>
+    </footer>
+</body>
+</html>

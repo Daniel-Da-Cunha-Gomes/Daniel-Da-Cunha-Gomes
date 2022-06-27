@@ -1,0 +1,27 @@
+body .timer {
+    display: flex;
+    font-weight: 50rem;
+    background-color: aliceblue;
+    border: 5px solid black;
+    width: 6rem;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+body {
+    margin-top: 3rem;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(205, 223, 255);
+}
+/* .jeu {
+    width: 80%;
+} */
+body nav {
+    background-color: rgb(205, 223, 255);
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Artists.Name}} - Groupie Tracker</title>
+    <link rel="stylesheet" href="/css/style4.css">   
+</head>
+<body>
+    <nav>
+        <div class="onglets">
+            <a href="http://localhost:5550">Home</a>
+            <a href="http://localhost:5550/artists/">Back</a>
+            <a href="http://localhost:5550/service-client">Besoin d'aide</a>
+        </div>
+    </nav>
+</body>
+<footer>
+    <div class="text">
+        <div class="image">
+            <img src="{{.Artists.Image}}">
+        </div>
+        <div class="doc">
+            <h1>{{.Artists.Name}}</h1>
+            <h1>Members : </h1>
+            {{range .Artists.Members}}
+            <h3>{{.}}</h3>
+            {{end}}
+            <h1>Creation Date :</h1>
+            <h7>{{.Artists.CreationDate}}</h7>
+            <h1>First Album :</h1>
+            <h9>{{.Artists.FirstAlbum}}</h9>
+            <h1>Relations :</h1>
+            {{range $k, $v := .Relations}}
+            <div class="concertplace"><h3>{{$k}}</h3></div>
+            <h3>{{$v}}</h3>
+            <br>
+            {{end}}
+        </div>
+    </div>  
+        <p id="contact">Contact : 07 81 27 36 84 | &copy; 2022, Groupie Tracer</p>
+    </footer>
+</html>

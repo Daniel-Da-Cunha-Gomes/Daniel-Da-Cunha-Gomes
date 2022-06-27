@@ -1,0 +1,39 @@
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jeu Mario</title>
+    <link href="./images/0wMd92p.png" rel="icon">
+    <link href="./images/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav>
+        <div class="song">
+            <audio src="song.mp3"></audio>
+            <script>
+                const playButton = document.querySelector("button");
+                const pauseButton = document.querySelector(".pause");
+                const monAudio = document.querySelector("audio");
+                playButton.addEventListener("click",
+                function(){
+                    monAudio.play();
+                });
+                pauseButton.addEventListener("click",
+                function(){
+                    monAudio.pause();
+                });
+            </script>
+        </div>
+        <div class="timer">
+            <div id="timer">
+                <script src="timer.js"></script>
+            </div>
+        </div>
+    </nav>
+    <script src="https://kaboomjs.com/lib/0.5.0/kaboom.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>

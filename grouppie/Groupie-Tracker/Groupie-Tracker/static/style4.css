@@ -1,0 +1,87 @@
+body{
+    background: url("https://cdn.discordapp.com/attachments/902284509049933844/952388034375077888/530654c7be_50155996_2-audio-black-white-black-white-6966.png");
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    }
+body img{
+    margin-top: 1rem;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;    
+    text-align: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+nav .onglets{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}  
+footer{
+    margin-bottom: 1rem;        
+}
+text{
+    margin-top: 40px;
+    display: flex;        
+}
+footer .text .image img{
+    height: 300px;
+    width: 300px;
+    margin-top: 9rem;
+    margin-left:5rem ;
+    margin-right:5rem ;
+    border-radius: 160px;
+}
+footer .text{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top: -3rem;
+}
+footer .text .doc {    
+    background-color: rgb(255, 255, 255);
+    border-radius: 9rem;
+    padding: 15px;
+    width: 600px;
+    margin-top: 7rem;
+    color: rgb(0, 0, 0);
+    margin-left: 10rem;
+    padding-bottom: 4rem;
+    font-family:'Jazz LET, fantasy';
+}
+
+@media screen and (max-width:680px){
+    footer .text .doc {    
+        background-color: rgb(255, 255, 255);
+        border-radius: 0px;
+        padding: 15px;
+        width: 100%;
+        margin-top: 13%;
+        color: rgb(0, 0, 0);
+        margin-left: 0px;
+        margin-bottom: 15px;
+        padding-bottom: 4rem;
+        font-family:'Jazz LET, fantasy';
+    }
+    footer .text .image img{
+        height: 300px;
+        width: 300px;
+        margin-top: 13%;
+        margin-left: 100px;
+        border-radius: 160px;
+    }
+}

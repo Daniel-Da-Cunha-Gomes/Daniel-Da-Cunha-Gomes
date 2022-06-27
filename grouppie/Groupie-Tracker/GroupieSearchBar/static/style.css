@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+    text-align: center;
+
+}
+
+nav .onglets{
+    margin-top: 2rem;
+    margin-left: 20px;
+    margin-bottom: 2rem;
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://i.ibb.co/4d8CYtM/background-header.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+header h4{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 80px;
+}
+header button{
+    padding: 5px 10px;
+    background-color: #fff;
+    color:#000;
+    border:none;
+    margin-bottom: 30px;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+    text-decoration: none;
+}
+.main .content .card .left{
+   flex: 0 0 30%;
+   padding: 20px;
+   background-color:black;
+   color:rgb(255, 255, 255);
+   border-bottom: none;
+}
+.main .content .card .right img{
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px 100px;;
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+    margin-bottom: 1rem;
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
+
+@media screen and (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main .card a{
+        margin: 10px;
+    }
+    .main .content .card .right img{
+        height:80%;
+        width: 80%;
+        margin-top: -0px;
+        align-items: center;
+        margin-left: 2rem;
+    }
+    .main .content .card .left {
+        height:80%;
+        width: 80%;
+        margin-top: -0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        padding: 30px;
+    }
+    nav{
+        border-bottom: block;
+    }
+}

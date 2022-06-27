@@ -1,0 +1,125 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url("https://cdn.discordapp.com/attachments/919673952316571689/953938940530933770/image_test_prog_3.png");
+    background-size:auto;
+    background-attachment:fixed;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.image {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+.image a{
+    text-decoration: none;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: black;
+    margin-top: 3rem;
+}
+.image a img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+
+.image a:hover {
+    background-color: white;
+    color: black;
+}
+
+header h1{
+    font-size: 30px;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: beige;
+    padding-top: 1rem;
+}
+header{
+    background-color: black;
+    background-size: cover;
+    padding-bottom: 1rem;
+    margin-top: -20px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    border-bottom: 5px solid #6f6f6f;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    background-color: #6f6f6f;
+}
+main .filters{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+main .filters .creationDates input{
+    width: 5rem;
+}
+main .filters .creationDates{
+    padding-left: 5rem;
+}
+main .filters .numberMembers{
+    padding-left: 29rem;
+}
+main .filters .Album{
+    padding-left: 35rem;
+}
+main .button{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+nav .onglets{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+footer{
+    margin-bottom: 1rem;
+    
+}
+footer p{
+    max-width: 300px; 
+    font-size: 12px;
+}
+
+footer #contact{
+    color: rgb(181, 181, 181);
+    margin-top: 2rem;
+}
+@media screen and (max-width:680px){
+    main .filters .creationDates{
+        padding-left: 4rem;
+    }
+    main .filters .numberMembers{
+        padding-left: 4rem;
+    }
+    main .filters .Album{
+        padding-left: 4rem;
+    }
+}

@@ -1,0 +1,82 @@
+
+body{
+    border-left: 5px solid #6f6f6f;
+    border-right: 5px solid #6f6f6f;
+    border-top: 5px solid #6f6f6f;
+    border-bottom: 5px solid #6f6f6f;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+    text-align: center;
+}
+
+nav .nom{
+    border-right: 5px solid #6f6f6f;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color:rgb(40, 42, 52);
+    color: white;
+}
+nav .onglets{
+    flex-direction: row;
+    padding-left: 5rem;
+    display: flex;
+    
+}
+nav .onglets img{
+    border-radius: 190px;
+    width: 7rem;
+    align-items: flex-end;
+    padding-right: 5rem;
+}
+
+.onglets a{
+    text-decoration: none;
+    font-size: large;
+    margin-right: 2rem;
+}
+main{
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.text img{
+    width: 2rem;
+}
+.text{
+    text-align: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    background-color: rgb(40, 42, 52);
+    color: aliceblue;
+    border-right: 5px solid #6f6f6f;
+}
+.text p{
+    text-align: left;
+}
+.text h1{
+    border-bottom: 5px solid gray;
+    margin-left: 1rem;
+}
+.info{
+    display:flex;
+    flex-wrap:wrap;
+}
+.info .infotext{
+    margin-left: 1rem;
+}
+.info .infotext p{
+    margin-left: 1rem;
+}
+.info .image img{
+    margin-left: 10rem;
+    margin-top: 4rem;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+

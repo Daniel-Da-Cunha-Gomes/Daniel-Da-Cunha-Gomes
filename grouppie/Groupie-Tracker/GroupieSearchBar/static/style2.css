@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background: url("https://cdn.discordapp.com/attachments/919673952316571689/953938899804241930/portada.jpg");
+    background-size: cover;
+
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+nav .onglets{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+footer{
+    margin-top: 40px;
+    color: #fff;
+    padding: 30px 100px;
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -50px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 100px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px;
+    padding-left: 15px;
+    
+}
+footer .services .service img{
+    max-width: 50px; 
+}
+footer .services .service p{
+    max-width: 300px; 
+    font-size: 20px;
+}
+footer .services .service h3{
+    max-width: 300px; 
+    font-size: 30px;
+    
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+    margin-top: 100px;
+}
+footer .excuse {
+    margin-right: 100px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px;
+    padding: 15px;
+    width: 600px;
+    margin-top: 100px;
+    
+}
+@media screen and (max-width:680px){
+    footer .excuse {
+        margin-right: 30%;
+        background-color: black;
+        border-radius: 30px;
+        padding: 5px;
+        width: 60%;
+        margin-top: 60%;
+        
+    }
+    footer .services .service{
+        margin-right: 50%;
+        background-color: black;
+        border-radius: 30px;
+        padding: 5px;
+        padding-left: none;
+        
+    }
+    footer .services .service img{
+        max-width: 80%; 
+    }
+    footer .services .service p{
+        max-width: 50%; 
+        font-size: 50%;
+    }
+    footer .services .service h3{
+        max-width: 50%; 
+        font-size: 50%;
+        
+    }
+}
