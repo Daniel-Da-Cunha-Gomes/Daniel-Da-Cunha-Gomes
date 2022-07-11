@@ -286,5 +286,6 @@ func main() {
 	})
 
 	//envoie les données au localhost choisis
+	http.Handle("/css/", http.StripPrefix("/css/", http.FileServer(http.Dir("./static"))))
 	http.ListenAndServe(":8080", nil)
 }

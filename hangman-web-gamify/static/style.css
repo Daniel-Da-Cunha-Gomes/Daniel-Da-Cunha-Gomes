@@ -1,0 +1,32 @@
+nav{
+    text-align: center;
+    color: burlywood;
+    border: solid 2px black;
+    
+}
+body{
+    background-color: rgb(0, 0, 0, 0.5);
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid 2px black;
+    color: burlywood;
+    margin-bottom: 2%;
+
+}
+
+body .mot{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.lettres{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px burlywood;
+    text-align: center;
+}
+form{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

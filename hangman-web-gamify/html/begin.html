@@ -5,62 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hangman-Web</title>
-    <style>
-        body {
-            background-color: #20bd9c;
-        }
-
-        h1 {
-            color: #5F5B5B;
-        }
-
-        h2 {
-            color: red;
-        }
-
-        h3 {
-            color: purple;
-        }
-
-        h4 {
-            color: yellow;
-        }
-
-        p {
-            font-size: 300%;
-            color: #5F5B5B;
-        }
-
-        .button {
-            color: black;
-            background-color: white;
-            padding: 10px 25px;
-            font-size: 18px
-        }
-
-        .button:hover {
-            color: white;
-            background-color: black;
-        }
-
-        .text {
-            padding: 5px;
-        }
-
-        div {
-            font-size: 200%;
-            text-align: center;
-            justify-content: space-around;
-            font-family: 'Arial Black';
-            text-transform: capitalize;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/style.css"> 
+    
 </head>
+<nav>
+    <H1>Hangman-Web</H1>
+</nav>
 <body>
-    <div>
-        <h1>Hangman-Web</h1>
+    <div class="mot">
+        <h1>Veuillez choisir un pseudo</h1>
         <form>
-            <input type="text" name="y" required autocomplete="off" autofocus required maxlength="10" class="text" placeholder="Entrez un nom"><br>
+            <input type="text" name="y" required autocomplete="off" autofocus required maxlength="10" class="text" placeholder="Entrez un nom"><br><br>
             <a href="http://localhost:8080/hangman"><input type="submit" value="Start" class="button"></a>
         </form>
     </div>
